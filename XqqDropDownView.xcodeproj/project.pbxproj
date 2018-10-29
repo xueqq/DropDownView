@@ -15,9 +15,9 @@
 		555B0DA8217F122800F80C6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 555B0DA7217F122800F80C6D /* main.m */; };
 		555B0DB2217F122900F80C6D /* XqqDropDownViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 555B0DB1217F122900F80C6D /* XqqDropDownViewTests.m */; };
 		555B0DBD217F122900F80C6D /* XqqDropDownViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 555B0DBC217F122900F80C6D /* XqqDropDownViewUITests.m */; };
-		555ECE0A218300E800E6380F /* dropdownFlag@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 555ECE06218300E700E6380F /* dropdownFlag@3x.png */; };
-		555ECE0B218300E800E6380F /* dropdownFlag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 555ECE07218300E700E6380F /* dropdownFlag@2x.png */; };
-		555ECE0C218300E800E6380F /* XqqDropDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 555ECE08218300E700E6380F /* XqqDropDownView.m */; };
+		555ECE1221869E6500E6380F /* dropdownFlag@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 555ECE0E21869E6500E6380F /* dropdownFlag@3x.png */; };
+		555ECE1321869E6500E6380F /* dropdownFlag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 555ECE0F21869E6500E6380F /* dropdownFlag@2x.png */; };
+		555ECE1421869E6500E6380F /* XqqDropDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 555ECE1021869E6500E6380F /* XqqDropDownView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,10 +54,10 @@
 		555B0DB8217F122900F80C6D /* XqqDropDownViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XqqDropDownViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		555B0DBC217F122900F80C6D /* XqqDropDownViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XqqDropDownViewUITests.m; sourceTree = "<group>"; };
 		555B0DBE217F122900F80C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		555ECE06218300E700E6380F /* dropdownFlag@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropdownFlag@3x.png"; sourceTree = "<group>"; };
-		555ECE07218300E700E6380F /* dropdownFlag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropdownFlag@2x.png"; sourceTree = "<group>"; };
-		555ECE08218300E700E6380F /* XqqDropDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XqqDropDownView.m; sourceTree = "<group>"; };
-		555ECE09218300E700E6380F /* XqqDropDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XqqDropDownView.h; sourceTree = "<group>"; };
+		555ECE0E21869E6500E6380F /* dropdownFlag@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropdownFlag@3x.png"; sourceTree = "<group>"; };
+		555ECE0F21869E6500E6380F /* dropdownFlag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropdownFlag@2x.png"; sourceTree = "<group>"; };
+		555ECE1021869E6500E6380F /* XqqDropDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XqqDropDownView.m; sourceTree = "<group>"; };
+		555ECE1121869E6500E6380F /* XqqDropDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XqqDropDownView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +88,7 @@
 		555B0D8C217F122100F80C6D = {
 			isa = PBXGroup;
 			children = (
+				555ECE0D21869E6500E6380F /* DropDownView */,
 				555B0D97217F122200F80C6D /* XqqDropDownView */,
 				555B0DB0217F122900F80C6D /* XqqDropDownViewTests */,
 				555B0DBB217F122900F80C6D /* XqqDropDownViewUITests */,
@@ -108,7 +109,6 @@
 		555B0D97217F122200F80C6D /* XqqDropDownView */ = {
 			isa = PBXGroup;
 			children = (
-				555ECE05218300E700E6380F /* DropDownView */,
 				555B0D98217F122200F80C6D /* AppDelegate.h */,
 				555B0D99217F122200F80C6D /* AppDelegate.m */,
 				555B0D9B217F122200F80C6D /* ViewController.h */,
@@ -140,13 +140,13 @@
 			path = XqqDropDownViewUITests;
 			sourceTree = "<group>";
 		};
-		555ECE05218300E700E6380F /* DropDownView */ = {
+		555ECE0D21869E6500E6380F /* DropDownView */ = {
 			isa = PBXGroup;
 			children = (
-				555ECE06218300E700E6380F /* dropdownFlag@3x.png */,
-				555ECE07218300E700E6380F /* dropdownFlag@2x.png */,
-				555ECE09218300E700E6380F /* XqqDropDownView.h */,
-				555ECE08218300E700E6380F /* XqqDropDownView.m */,
+				555ECE0E21869E6500E6380F /* dropdownFlag@3x.png */,
+				555ECE0F21869E6500E6380F /* dropdownFlag@2x.png */,
+				555ECE1021869E6500E6380F /* XqqDropDownView.m */,
+				555ECE1121869E6500E6380F /* XqqDropDownView.h */,
 			);
 			path = DropDownView;
 			sourceTree = "<group>";
@@ -254,11 +254,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				555ECE0A218300E800E6380F /* dropdownFlag@3x.png in Resources */,
+				555ECE1221869E6500E6380F /* dropdownFlag@3x.png in Resources */,
 				555B0DA5217F122800F80C6D /* LaunchScreen.storyboard in Resources */,
 				555B0DA2217F122800F80C6D /* Assets.xcassets in Resources */,
 				555B0DA0217F122200F80C6D /* Main.storyboard in Resources */,
-				555ECE0B218300E800E6380F /* dropdownFlag@2x.png in Resources */,
+				555ECE1321869E6500E6380F /* dropdownFlag@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,8 +285,8 @@
 			files = (
 				555B0D9D217F122200F80C6D /* ViewController.m in Sources */,
 				555B0DA8217F122800F80C6D /* main.m in Sources */,
+				555ECE1421869E6500E6380F /* XqqDropDownView.m in Sources */,
 				555B0D9A217F122200F80C6D /* AppDelegate.m in Sources */,
-				555ECE0C218300E800E6380F /* XqqDropDownView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
